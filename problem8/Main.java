@@ -21,7 +21,7 @@ public class Main {
                                 ,length);
             }
         }
-        System.out.println("The sequence '"+ Arrays.toString(largestString) +"' is creates the largest sum of a "+length+" sequence, which is:"+largestSum);
+        System.out.println("The sequence '"+ Arrays.toString(largestString) +"' creates the largest sum of a "+length+" sequence, which is:"+largestSum);
 
     }
 }
