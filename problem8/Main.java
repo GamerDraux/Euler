@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        int largestSum = 0;
+        long largestSum = 0;
         char[] largestString = new char[0];
         Scanner input = new Scanner(System.in);
         System.out.println("How long of a string do you " +
