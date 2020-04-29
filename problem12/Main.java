@@ -9,7 +9,7 @@ public class Main {
         do {
             solution ++;
             System.out.println("Triangle number: "+CreateTriangleNumber.createTriangleNumber(solution)+"  Divisors: "+FindDivisors.findDivisors(CreateTriangleNumber.createTriangleNumber(solution)));
-        } while (FindDivisors.findDivisors(CreateTriangleNumber.createTriangleNumber(solution))<=501);
+        } while (FindDivisors.findDivisors(CreateTriangleNumber.createTriangleNumber(solution))<=251);
 
         System.out.println("The first Triangle number " +
                 "that has over 500 divisors is: "+CreateTriangleNumber.createTriangleNumber(solution));
