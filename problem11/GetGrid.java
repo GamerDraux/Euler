@@ -1,3 +1,5 @@
+package com.Euler.problem11;
+
 public class GetGrid {
     public static int[][] getGrid() {
         int[][] brokenGrid = new int[20][20];

@@ -1,12 +1,11 @@
-import java.awt.*;
-import java.util.zip.Checksum;
+package com.Euler.problem11;
 
 public class Main {
     public static void main (String[] args){
         int[][] arrGrid = GetGrid.getGrid();
         int result = 0;
-       if (CheckDown.checkdown(arrGrid)>result){result=
-               CheckDown.checkdown(arrGrid);}
+       if (CheckDown.checkDown(arrGrid)>result){result=
+               CheckDown.checkDown(arrGrid);}
        if (CheckRight.checkRight(arrGrid)>result){result=
                CheckRight.checkRight(arrGrid);}
        if (CheckSlash.checkSlash(arrGrid)>result){result

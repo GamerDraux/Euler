@@ -1,7 +1,9 @@
+package com.Euler.problem11;
+
 public class CheckRight {
     public static int checkRight(int[][] grid){
         int biggest=0;
-        int test = 0;
+        int test;
         for (int i= 0; i<17; i++){
             for (int j= 0; j<20; j++){
                 test=

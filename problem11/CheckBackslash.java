@@ -1,7 +1,9 @@
+package com.Euler.problem11;
+
 public class CheckBackslash {
     public static int checkBackslash(int[][] grid){
         int biggest=0;
-        int test = 0;
+        int test;
         for (int i= 0; i<17; i++){
             for (int j= 0; j<17; j++){
                 test=

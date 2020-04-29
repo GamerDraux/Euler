@@ -1,7 +1,9 @@
+package com.Euler.problem11;
+
 public class CheckDown {
-    public static int checkdown(int[][] grid){
+    public static int checkDown(int[][] grid){
         int biggest=0;
-        int test = 0;
+        int test;
         for (int i= 0; i<20; i++){
             for (int j= 0; j<17; j++){
                 test=
